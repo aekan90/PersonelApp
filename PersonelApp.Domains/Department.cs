@@ -11,7 +11,7 @@ namespace PersonelApp.Domains
         // Personnels listesini hafızaya çıkartmam gerekiyor
         public Department()
         {
-            Personnels = new List<Personnel>();
+            Personnels = new List<Personnel>(); 
         }
         public int Id { get; set; }
         public string Name { get; set; }
